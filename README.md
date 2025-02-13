@@ -22,11 +22,15 @@ OPENAI_API_KEY={your OpenAI key}
 
 1. Claudeを使って台本（PodcastScript）を作成
 2. セリフの分割（src/split.ts）
+  ```yarn run split {path to the script file}```
 3. Claudeを使って、セリフごとに text2image 向けのプロンプトを作成
 4. Youtubeライブ向けの縦動画であれば、その指示を追加（手作業）
 5. 音声ファイルの作成（src/main.tsを使って自動作成）
+  ```yarn run gen {path to the script file}```
 6. 画像ファイルの作成（src/images.tsを使って自動生成）
+  ```yarn run images {path to the script file}```
 7. 映像ファイルの作成（src/movie.tsを使って自動生成）
+  ```yarn run mov {path to the script file}```
 
 # Script format
 
