@@ -3,11 +3,14 @@ import path from "path";
 import ffmpeg from "fluent-ffmpeg";
 import { createCanvas, loadImage } from "canvas";
 import { ScriptData, PodcastScript, ImageInfo } from "./type";
+import { getAvailableFonts } from "font-scanner";
+
 
 async function renderJapaneseTextToPNG(
   text: string,
   outputFilePath: string,
   canvasInfo: any,
+  fontName: string,
 ) {
   const fontSize = 48;
   const paddingX = 48 * 2;
@@ -66,7 +69,8 @@ async function renderJapaneseTextToPNG(
   context.fillRect(0, textTop, canvasInfo.width, textHeight);
 
   // Set text styles
-  context.font = `bold ${fontSize}px Arial`;
+  // context.font = `bold ${fontSize}px Arial`;
+  context.font = `bold ${fontSize}px ${fontName}`;
   context.fillStyle = "#ffffff";
   context.textAlign = "center";
   context.textBaseline = "top";
@@ -109,6 +113,9 @@ const createVideo = (
   let command = ffmpeg();
 
   // Add each image input
+  if (!images) {
+    throw new Error("images is not defined");
+  }
   images.forEach((element) => {
     command = command.input(element.image!); // HACK
   });
@@ -145,7 +152,8 @@ const createVideo = (
       "-preset veryfast", // Faster encoding
       "-map [v]", // Map the video stream
       `-map ${imageCount + captionCount}:a`, // Map the audio stream (audio is the next input after all images)
-      "-c:v h264_videotoolbox", // Set video codec
+      // "-c:v h264_videotoolbox", // Set video codec
+      "-c:v libx264", // Set video codec
       "-threads 8",
       "-filter_threads 8",
       "-b:v 5M", // bitrate (only for videotoolbox)
@@ -174,6 +182,7 @@ const createVideo = (
 
 const main = async () => {
   const arg2 = process.argv[2];
+  const arg3 = process.argv[3] || "Keifont";
   const scriptPath = path.resolve(arg2);
   const parsedPath = path.parse(scriptPath);
   const name = parsedPath.name;
@@ -189,6 +198,21 @@ const main = async () => {
     canvasInfo.height = 1280;
   }
 
+  // font check and set
+  getAvailableFonts().then((fonts) => {
+    const fontExists = fonts.some((font) => font.family === arg3);
+    console.log(fonts);
+    if (fontExists) {
+      const fontName = arg3;
+      console.log(`フォント "${arg3}" を使用します。`);
+    } else {
+      const fontName = "Arial";
+      console.log(`フォント "${arg3}" が見つかりません。"Arial"を使用します`);
+    }
+  });
+
+  return;
+
   //
   await renderJapaneseTextToPNG(
     `${jsonData.title}\n\n${jsonData.description}`,
@@ -203,6 +227,7 @@ const main = async () => {
       element.caption ?? element.text,
       `./scratchpad/${name}_${index}.png`, // Output file path
       canvasInfo,
+      fontName,
     ).catch((err) => {
       console.error("Error generating PNG:", err);
     });
@@ -260,6 +285,11 @@ const main = async () => {
   const captionsWithTitle = [titleInfo].concat(captions);
   // const captionsWithTitle = [captions[0], captions[1], captions[5], captions[8]];
 
+  // console.log(audioPath);
+  // console.log(captionsWithTitle);
+  // console.log(jsonDataTm.images);
+  // console.log(outputVideoPath);
+  // console.log(canvasInfo);
   createVideo(
     audioPath,
     captionsWithTitle,
