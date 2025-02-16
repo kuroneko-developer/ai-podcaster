@@ -14,13 +14,13 @@ import { text } from "stream/consumers";
 const VOICEVOX_API_URL = "http://host.docker.internal:50021"; // docker内からホストマシン(Mac)のlocalhostにアクセスするためのアドレス
 
 
-async function createSpeech(voice_text: string, SPEAKER_ID: number, OUTPUT_FILE: string) {
+async function createSpeech(VOICE_TEXT: string, SPEAKER_ID: number, OUTPUT_FILE: string) {
     try {
         // 1. 音声合成用のクエリを取得
         const queryResponse = await axios.post(
             `${VOICEVOX_API_URL}/audio_query`,
             null,
-            { params: {text: voice_text, speaker: SPEAKER_ID } }
+            { params: {text: VOICE_TEXT, speaker: SPEAKER_ID } }
         );
 
         // console.log(queryResponse.data);
@@ -50,8 +50,8 @@ const main = async () => {
     // 実行例
     const SPEAKER_ID = 3; // 話者のID（VOICEVOXのキャラクターによって異なる）
     const OUTPUT_FILE = "voicevox_output.wav"; // 保存する音声データのファイル名
-    const voice_text = "こんにちは、VOICEVOX APIのテストです。"; // 音声合成するテキスト
-    createSpeech(voice_text, SPEAKER_ID, OUTPUT_FILE);
+    const VOICE_TEXT = "こんにちは、VOICEVOX APIのテストです。"; // 音声合成するテキスト
+    createSpeech(VOICE_TEXT, SPEAKER_ID, OUTPUT_FILE);
 };
 
 main();
