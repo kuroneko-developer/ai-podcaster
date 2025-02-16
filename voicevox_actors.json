@@ -1,0 +1,961 @@
+{
+  "voiceActors": [
+    {
+      "id": "7ffcb7ce-00ec-4bdc-82cd-45a8889e43ff",
+      "name": "四国めたん",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 2,
+          "style": "ノーマル"
+        },
+        {
+          "id": 0,
+          "style": "あまあま"
+        },
+        {
+          "id": 6,
+          "style": "ツンツン"
+        },
+        {
+          "id": 4,
+          "style": "セクシー"
+        },
+        {
+          "id": 36,
+          "style": "ささやき"
+        },
+        {
+          "id": 37,
+          "style": "ヒソヒソ"
+        }
+      ]
+    },
+    {
+      "id": "388f246b-8c41-4ac1-8e2d-5d79f3ff56d9",
+      "name": "ずんだもん",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 3,
+          "style": "ノーマル"
+        },
+        {
+          "id": 1,
+          "style": "あまあま"
+        },
+        {
+          "id": 7,
+          "style": "ツンツン"
+        },
+        {
+          "id": 5,
+          "style": "セクシー"
+        },
+        {
+          "id": 22,
+          "style": "ささやき"
+        },
+        {
+          "id": 38,
+          "style": "ヒソヒソ"
+        },
+        {
+          "id": 75,
+          "style": "ヘロヘロ"
+        },
+        {
+          "id": 76,
+          "style": "なみだめ"
+        }
+      ]
+    },
+    {
+      "id": "35b2c544-660e-401e-b503-0e14c635303a",
+      "name": "春日部つむぎ",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 8,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "3474ee95-c274-47f9-aa1a-8322163d96f1",
+      "name": "雨晴はう",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 10,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "b1a81618-b27b-40d2-b0ea-27a9ad408c4b",
+      "name": "波音リツ",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 9,
+          "style": "ノーマル"
+        },
+        {
+          "id": 65,
+          "style": "クイーン"
+        }
+      ]
+    },
+    {
+      "id": "c30dc15a-0992-4f8d-8bb8-ad3b314e6a6f",
+      "name": "玄野武宏",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 11,
+          "style": "ノーマル"
+        },
+        {
+          "id": 39,
+          "style": "喜び"
+        },
+        {
+          "id": 40,
+          "style": "ツンギレ"
+        },
+        {
+          "id": 41,
+          "style": "悲しみ"
+        }
+      ]
+    },
+    {
+      "id": "e5020595-5c5d-4e87-b849-270a518d0dcf",
+      "name": "白上虎太郎",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 12,
+          "style": "ふつう"
+        },
+        {
+          "id": 32,
+          "style": "わーい"
+        },
+        {
+          "id": 33,
+          "style": "びくびく"
+        },
+        {
+          "id": 34,
+          "style": "おこ"
+        },
+        {
+          "id": 35,
+          "style": "びえーん"
+        }
+      ]
+    },
+    {
+      "id": "4f51116a-d9ee-4516-925d-21f183e2afad",
+      "name": "青山龍星",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 13,
+          "style": "ノーマル"
+        },
+        {
+          "id": 81,
+          "style": "熱血"
+        },
+        {
+          "id": 82,
+          "style": "不機嫌"
+        },
+        {
+          "id": 83,
+          "style": "喜び"
+        },
+        {
+          "id": 84,
+          "style": "しっとり"
+        },
+        {
+          "id": 85,
+          "style": "かなしみ"
+        },
+        {
+          "id": 86,
+          "style": "囁き"
+        }
+      ]
+    },
+    {
+      "id": "8eaad775-3119-417e-8cf4-2a10bfd592c8",
+      "name": "冥鳴ひまり",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 14,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "481fb609-6446-4870-9f46-90c4dd623403",
+      "name": "九州そら",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 16,
+          "style": "ノーマル"
+        },
+        {
+          "id": 15,
+          "style": "あまあま"
+        },
+        {
+          "id": 18,
+          "style": "ツンツン"
+        },
+        {
+          "id": 17,
+          "style": "セクシー"
+        },
+        {
+          "id": 19,
+          "style": "ささやき"
+        }
+      ]
+    },
+    {
+      "id": "9f3ee141-26ad-437e-97bd-d22298d02ad2",
+      "name": "もち子さん",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 20,
+          "style": "ノーマル"
+        },
+        {
+          "id": 66,
+          "style": "セクシー／あん子"
+        },
+        {
+          "id": 77,
+          "style": "泣き"
+        },
+        {
+          "id": 78,
+          "style": "怒り"
+        },
+        {
+          "id": 79,
+          "style": "喜び"
+        },
+        {
+          "id": 80,
+          "style": "のんびり"
+        }
+      ]
+    },
+    {
+      "id": "1a17ca16-7ee5-4ea5-b191-2f02ace24d21",
+      "name": "剣崎雌雄",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 21,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "67d5d8da-acd7-4207-bb10-b5542d3a663b",
+      "name": "WhiteCUL",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 23,
+          "style": "ノーマル"
+        },
+        {
+          "id": 24,
+          "style": "たのしい"
+        },
+        {
+          "id": 25,
+          "style": "かなしい"
+        },
+        {
+          "id": 26,
+          "style": "びえーん"
+        }
+      ]
+    },
+    {
+      "id": "0f56c2f2-644c-49c9-8989-94e11f7129d0",
+      "name": "後鬼",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 27,
+          "style": "人間ver."
+        },
+        {
+          "id": 28,
+          "style": "ぬいぐるみver."
+        },
+        {
+          "id": 87,
+          "style": "人間（怒り）ver."
+        },
+        {
+          "id": 88,
+          "style": "鬼ver."
+        }
+      ]
+    },
+    {
+      "id": "044830d2-f23b-44d6-ac0d-b5d733caa900",
+      "name": "No.7",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 29,
+          "style": "ノーマル"
+        },
+        {
+          "id": 30,
+          "style": "アナウンス"
+        },
+        {
+          "id": 31,
+          "style": "読み聞かせ"
+        }
+      ]
+    },
+    {
+      "id": "468b8e94-9da4-4f7a-8715-a22a48844f9e",
+      "name": "ちび式じい",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 42,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "0693554c-338e-4790-8982-b9c6d476dc69",
+      "name": "櫻歌ミコ",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 43,
+          "style": "ノーマル"
+        },
+        {
+          "id": 44,
+          "style": "第二形態"
+        },
+        {
+          "id": 45,
+          "style": "ロリ"
+        }
+      ]
+    },
+    {
+      "id": "a8cc6d22-aad0-4ab8-bf1e-2f843924164a",
+      "name": "小夜/SAYO",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 46,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "882a636f-3bac-431a-966d-c5e6bba9f949",
+      "name": "ナースロボ＿タイプＴ",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 47,
+          "style": "ノーマル"
+        },
+        {
+          "id": 48,
+          "style": "楽々"
+        },
+        {
+          "id": 49,
+          "style": "恐怖"
+        },
+        {
+          "id": 50,
+          "style": "内緒話"
+        }
+      ]
+    },
+    {
+      "id": "471e39d2-fb11-4c8c-8d89-4b322d2498e0",
+      "name": "†聖騎士 紅桜†",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 51,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "0acebdee-a4a5-4e12-a695-e19609728e30",
+      "name": "雀松朱司",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 52,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "7d1e7ba7-f957-40e5-a3fc-da49f769ab65",
+      "name": "麒ヶ島宗麟",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 53,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "ba5d2428-f7e0-4c20-ac41-9dd56e9178b4",
+      "name": "春歌ナナ",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 54,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "00a5c10c-d3bd-459f-83fd-43180b521a44",
+      "name": "猫使アル",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 55,
+          "style": "ノーマル"
+        },
+        {
+          "id": 56,
+          "style": "おちつき"
+        },
+        {
+          "id": 57,
+          "style": "うきうき"
+        }
+      ]
+    },
+    {
+      "id": "c20a2254-0349-4470-9fc8-e5c0f8cf3404",
+      "name": "猫使ビィ",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 58,
+          "style": "ノーマル"
+        },
+        {
+          "id": 59,
+          "style": "おちつき"
+        },
+        {
+          "id": 60,
+          "style": "人見知り"
+        }
+      ]
+    },
+    {
+      "id": "1f18ffc3-47ea-4ce0-9829-0576d03a7ec8",
+      "name": "中国うさぎ",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 61,
+          "style": "ノーマル"
+        },
+        {
+          "id": 62,
+          "style": "おどろき"
+        },
+        {
+          "id": 63,
+          "style": "こわがり"
+        },
+        {
+          "id": 64,
+          "style": "へろへろ"
+        }
+      ]
+    },
+    {
+      "id": "04dbd989-32d0-40b4-9e71-17c920f2a8a9",
+      "name": "栗田まろん",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 67,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "dda44ade-5f9c-4a3a-9d2c-2a976c7476d9",
+      "name": "あいえるたん",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 68,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "287aa49f-e56b-4530-a469-855776c84a8d",
+      "name": "満別花丸",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 69,
+          "style": "ノーマル"
+        },
+        {
+          "id": 70,
+          "style": "元気"
+        },
+        {
+          "id": 71,
+          "style": "ささやき"
+        },
+        {
+          "id": 72,
+          "style": "ぶりっ子"
+        },
+        {
+          "id": 73,
+          "style": "ボーイ"
+        }
+      ]
+    },
+    {
+      "id": "97a4af4b-086e-4efd-b125-7ae2da85e697",
+      "name": "琴詠ニア",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 74,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "0ebe2c7d-96f3-4f0e-a2e3-ae13fe27c403",
+      "name": "Voidoll",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 89,
+          "style": "ノーマル"
+        }
+      ]
+    },
+    {
+      "id": "0156da66-4300-474a-a398-49eb2e8dd853",
+      "name": "ぞん子",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 90,
+          "style": "ノーマル"
+        },
+        {
+          "id": 91,
+          "style": "低血圧"
+        },
+        {
+          "id": 92,
+          "style": "覚醒"
+        },
+        {
+          "id": 93,
+          "style": "実況風"
+        }
+      ]
+    },
+    {
+      "id": "4614a7de-9829-465d-9791-97eb8a5f9b86",
+      "name": "中部つるぎ",
+      "nameReading": "",
+      "age": null,
+      "gender": "UNKNOWN",
+      "birthMonth": null,
+      "birthDay": null,
+      "smallImageUrl": "",
+      "mediumImageUrl": "",
+      "largeImageUrl": "",
+      "sampleVoiceUrl": "",
+      "sampleScript": "",
+      "recommendedVoiceSpeed": 1,
+      "voiceStyles": [
+        {
+          "id": 94,
+          "style": "ノーマル"
+        },
+        {
+          "id": 95,
+          "style": "怒り"
+        },
+        {
+          "id": 96,
+          "style": "ヒソヒソ"
+        },
+        {
+          "id": 97,
+          "style": "おどおど"
+        },
+        {
+          "id": 98,
+          "style": "絶望と敗北"
+        }
+      ]
+    }
+  ]
+}
