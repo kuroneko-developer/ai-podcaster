@@ -199,25 +199,23 @@ const main = async () => {
   }
 
   // font check and set
-  getAvailableFonts().then((fonts) => {
+  let fontName = "Arial";
+  await getAvailableFonts().then((fonts) => {
     const fontExists = fonts.some((font) => font.family === arg3);
     console.log(fonts);
     if (fontExists) {
-      const fontName = arg3;
+      fontName = arg3;
       console.log(`フォント "${arg3}" を使用します。`);
     } else {
-      const fontName = "Arial";
       console.log(`フォント "${arg3}" が見つかりません。"Arial"を使用します`);
     }
   });
 
-  return;
-
-  //
   await renderJapaneseTextToPNG(
     `${jsonData.title}\n\n${jsonData.description}`,
     `./scratchpad/${name}_00.png`, // Output file path
     canvasInfo,
+    fontName,
   ).catch((err) => {
     console.error("Error generating PNG:", err);
   });
