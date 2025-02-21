@@ -17,7 +17,7 @@ OPENAI_API_KEY={your OpenAI key}
 2. Enter a sample JSON podcast script in “Cloud” and have the script file written (use the contents of “./prompts/prompt.md").
    "Cloud"にJSONポッドキャスト・スクリプトのサンプルを入力して、スクリプトファイルを書いてもらう（ “./prompts/prompt.md" の内容を使う）。
 
-### プロンプト例:
+<details><summary>**プロンプト例**</summary><div>
 ```
 この件について、内容全てを高校生にも分かるように、太郎くん(Student)と先生(Teacher)の会話、という形の台本をArtifactとして作って。ただし要点はしっかりと押さえて。
 以下に別のトピックに関するサンプルを貼り付けます。このJSONフォーマットに従って。
@@ -118,6 +118,9 @@ OPENAI_API_KEY={your OpenAI key}
 }
 ```
 
+</div></details>
+
+
 3. Create a json file with that generated JSON (such as ./scripts/elon.json)
    生成されたJSONでjsonファイルを作成する（./scripts/elon.jsonなど）。
 4. Run ```yarn run gen {path to the script file}```.
@@ -141,7 +144,9 @@ OPENAI_API_KEY={your OpenAI key}
    “./prompts/image_prompt.md"
    Youtubeライブ向けの縦動画であれば、その指示を追加（手作業）
 
-### プロンプト例
+<details>
+<summary>**プロンプト例**</summary>
+<div>
 ```
 このポッドキャストのために、一連の画像を生成する必要があります。与えられたjsonの各行に対して、全体の議論の流れを考慮して、テキスト-2-画像AIのための適切なテキストプロンプトを生成し、スクリプトに「imagePrompt」プロパティとして追加します。画像に生徒、教師、教室を表示しない。セリフは消さないでください。
 
@@ -154,6 +159,8 @@ A balanced scale with AI progress on one side and economic factors on the other,
 A newspaper headline about a breakthrough in AI technology, with digital code overlaying the article.
 A timeline showing the gradual evolution of AI models, with key milestones highlighted.
 ```
+</div>
+</details>
 
 ```json
 {
