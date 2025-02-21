@@ -17,7 +17,9 @@ OPENAI_API_KEY={your OpenAI key}
 2. Enter a sample JSON podcast script in “Cloud” and have the script file written (use the contents of “./prompts/prompt.md").
    "Cloud"にJSONポッドキャスト・スクリプトのサンプルを入力して、スクリプトファイルを書いてもらう（ “./prompts/prompt.md" の内容を使う）。
 
-<details><summary>**プロンプト例**</summary><div>
+<br>
+<details><summary><b>プロンプト例</b></summary><div>
+
 ```
 この件について、内容全てを高校生にも分かるように、太郎くん(Student)と先生(Teacher)の会話、という形の台本をArtifactとして作って。ただし要点はしっかりと押さえて。
 以下に別のトピックに関するサンプルを貼り付けます。このJSONフォーマットに従って。
@@ -117,9 +119,8 @@ OPENAI_API_KEY={your OpenAI key}
   ]
 }
 ```
-
 </div></details>
-
+<br>
 
 3. Create a json file with that generated JSON (such as ./scripts/elon.json)
    生成されたJSONでjsonファイルを作成する（./scripts/elon.jsonなど）。
@@ -144,9 +145,9 @@ OPENAI_API_KEY={your OpenAI key}
    “./prompts/image_prompt.md"
    Youtubeライブ向けの縦動画であれば、その指示を追加（手作業）
 
-<details>
-<summary>**プロンプト例**</summary>
-<div>
+<br>
+<details><summary><b>プロンプト例</b></summary><div>
+
 ```
 このポッドキャストのために、一連の画像を生成する必要があります。与えられたjsonの各行に対して、全体の議論の流れを考慮して、テキスト-2-画像AIのための適切なテキストプロンプトを生成し、スクリプトに「imagePrompt」プロパティとして追加します。画像に生徒、教師、教室を表示しない。セリフは消さないでください。
 
@@ -159,15 +160,17 @@ A balanced scale with AI progress on one side and economic factors on the other,
 A newspaper headline about a breakthrough in AI technology, with digital code overlaying the article.
 A timeline showing the gradual evolution of AI models, with key milestones highlighted.
 ```
-</div>
-</details>
+</div></details>
+<br>
 
 ```json
-{
-      "speaker": "Teacher",
-      "text": "そうだね。今日は、特に二つの画期的な技術について詳しく説明するよ。「DeepSeek-R1-Zero」と「DeepSeek-R1」というんだ。この技術が特に注目されているのは、AIの学習方法を大きく変えて、開発コストを大幅に下げることができたからなんだ。",
-      "imagePrompt": "Split screen showing two distinct AI systems, one labeled R1-Zero and one R1, with floating mathematical symbols and cost graphs trending downward, professional infographic style",
-    },
+"script": [
+  {
+    "speaker": "Teacher",
+    "text": "そうだね。今日は、特に二つの画期的な技術について詳しく説明するよ。「DeepSeek-R1-Zero」と「DeepSeek-R1」というんだ。この技術が特に注目されているのは、AIの学習方法を大きく変えて、開発コストを大幅に下げることができたからなんだ。",
+    "imagePrompt": "Split screen showing two distinct AI systems, one labeled R1-Zero and one R1, with floating mathematical symbols and cost graphs trending downward, professional infographic style",
+  }
+]
 ```
 
 ## Step.3: Split a script and assign image numbers.
