@@ -59,11 +59,9 @@ OPENAI_API_KEY={your OpenAI key}
 1. Run ```yarn run split {path to the script file}```
    yarn run split {path to the script file} を実行する。
 2. A script is created with “imageIndex” and “images” added.
+   *note: that the source script file will be overwritten and changed.*
    "imageIndex"と"images"を加えたスクリプトが作成される
-:::note warn
-that the source script file will be overwritten and changed.
-ソースのスクリプトファイルが上書き変更されるので注意
-:::
+   *注意: ソースのスクリプトファイルが上書き変更されるので注意*
 
 ```json
 "script": [
