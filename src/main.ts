@@ -13,15 +13,22 @@ import * as agents from "@graphai/agents";
 // import { ttsNijivoiceAgent } from "@graphai/tts_nijivoice_agent";
 import { ttsOpenaiAgent } from "@graphai/tts_openai_agent";
 import ttsNijivoiceAgent from "./agents/tts_nijivoice_agent";
+import ttsVoicevoxAgent from "./agents/tts_voicevox_agent";
 import addBGMAgent from "./agents/add_bgm_agent";
 import combineFilesAgent from "./agents/combine_files_agent";
 // import ttsOpenaiAgent from "./agents/tts_openai_agent";
 import { pathUtilsAgent } from "@graphai/vanilla_node_agents";
 
 import { ScriptData, PodcastScript } from "./type";
+import { isModuleNamespaceObject } from "util/types";
 
+// default nijivoice voices
 const rion_takanashi_voice = "b9277ce3-ba1c-4f6f-9a65-c05ca102ded0"; // たかなし りおん
 const ben_carter_voice = "bc06c63f-fef6-43b6-92f7-67f919bd5dae"; // ベン・カーター
+
+// default voicevox voices
+const zundamon_voice = "3"; // ずんだもん
+const kigashima_sourin_voice = "53"; // 麒ヶ島宗麟
 
 const graph_tts: GraphData = {
   nodes: {
@@ -166,7 +173,13 @@ const main = async () => {
     });
   }
 
-  if (script.tts === "nijivoice") {
+  if (script.tts === "voicevox") {
+    graph_data.concurrency = 1; //グラフ内のエージェント（Agent）の並列実行数
+    console.log(script);
+    script.voices = script.voices ?? [kigashima_sourin_voice,zundamon_voice];
+    script.ttsAgent = "ttsVoicevoxAgent";
+  }
+  else if (script.tts === "nijivoice") {
     graph_data.concurrency = 1;
     script.voices = script.voices ?? [rion_takanashi_voice, ben_carter_voice];
     script.ttsAgent = "ttsNijivoiceAgent";
@@ -198,6 +211,7 @@ const main = async () => {
       pathUtilsAgent,
       ttsOpenaiAgent,
       ttsNijivoiceAgent,
+      ttsVoicevoxAgent,
       addBGMAgent,
       combineFilesAgent,
     },
